@@ -1,4 +1,4 @@
-namespace wt_lab6_6minimalapi_lyashuk.Models;
+namespace wt_lab7_7postgres_efcore_lyashuk.Models;
 
 public class Player
 {
@@ -7,4 +7,5 @@ public class Player
     public string Role { get; set; } = string.Empty;
     public int Rating { get; set; }
     public bool IsActive { get; set; }
+    public string Team { get; set; } = "Free Agent";
 }

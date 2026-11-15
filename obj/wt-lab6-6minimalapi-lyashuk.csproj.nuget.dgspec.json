@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Academy\\wt\\lab6\\wt-lab6-6minimalapi-lyashuk\\wt-lab6-6minimalapi-lyashuk.csproj": {}
+    "C:\\Academy\\wt\\lab7\\wt-lab7-7postgres-efcore-lyashuk\\wt-lab6-6minimalapi-lyashuk.csproj": {}
   },
   "projects": {
-    "C:\\Academy\\wt\\lab6\\wt-lab6-6minimalapi-lyashuk\\wt-lab6-6minimalapi-lyashuk.csproj": {
+    "C:\\Academy\\wt\\lab7\\wt-lab7-7postgres-efcore-lyashuk\\wt-lab6-6minimalapi-lyashuk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Academy\\wt\\lab6\\wt-lab6-6minimalapi-lyashuk\\wt-lab6-6minimalapi-lyashuk.csproj",
+        "projectUniqueName": "C:\\Academy\\wt\\lab7\\wt-lab7-7postgres-efcore-lyashuk\\wt-lab6-6minimalapi-lyashuk.csproj",
         "projectName": "wt-lab6-6minimalapi-lyashuk",
-        "projectPath": "C:\\Academy\\wt\\lab6\\wt-lab6-6minimalapi-lyashuk\\wt-lab6-6minimalapi-lyashuk.csproj",
+        "projectPath": "C:\\Academy\\wt\\lab7\\wt-lab7-7postgres-efcore-lyashuk\\wt-lab6-6minimalapi-lyashuk.csproj",
         "packagesPath": "C:\\Users\\Vladushkin\\.nuget\\packages\\",
-        "outputPath": "C:\\Academy\\wt\\lab6\\wt-lab6-6minimalapi-lyashuk\\obj\\",
+        "outputPath": "C:\\Academy\\wt\\lab7\\wt-lab7-7postgres-efcore-lyashuk\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

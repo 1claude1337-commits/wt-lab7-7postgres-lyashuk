@@ -1,11 +1,18 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+# Этап сборки
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
+COPY ["wt_lab7_7postgres_efcore_lyashuk.csproj", "./"]
+RUN dotnet restore "wt_lab7_7postgres_efcore_lyashuk.csproj"
 COPY . .
-RUN dotnet restore
-RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet build "wt_lab7_7postgres_efcore_lyashuk.csproj" -c Release -o /app/build
 
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+# Этап публикации
+FROM build AS publish
+RUN dotnet publish "wt_lab7_7postgres_efcore_lyashuk.csproj" -c Release -o /app/publish
+
+# Финальный образ для запуска
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS final
 WORKDIR /app
-COPY --from=build /app/publish .
+COPY --from=publish /app/publish .
 EXPOSE 10000
-ENTRYPOINT ["dotnet", "wt-lab6-6minimalapi-lyashuk.dll"]
+ENTRYPOINT ["dotnet", "wt_lab7_7postgres_efcore_lyashuk.dll"]

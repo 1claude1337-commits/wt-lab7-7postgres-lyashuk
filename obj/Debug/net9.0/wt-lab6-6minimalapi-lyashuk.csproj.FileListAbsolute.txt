@@ -25,3 +25,4 @@ C:\Academy\wt\lab6\wt-lab6-6minimalapi-lyashuk\obj\Debug\net9.0\refint\wt-lab6-6
 C:\Academy\wt\lab6\wt-lab6-6minimalapi-lyashuk\obj\Debug\net9.0\wt-lab6-6minimalapi-lyashuk.pdb
 C:\Academy\wt\lab6\wt-lab6-6minimalapi-lyashuk\obj\Debug\net9.0\wt-lab6-6minimalapi-lyashuk.genruntimeconfig.cache
 C:\Academy\wt\lab6\wt-lab6-6minimalapi-lyashuk\obj\Debug\net9.0\ref\wt-lab6-6minimalapi-lyashuk.dll
+C:\Academy\wt\lab6\wt-lab6-6minimalapi-lyashuk\obj\Debug\net9.0\wt-lab6-6minimalapi-lyashuk.sourcelink.json
