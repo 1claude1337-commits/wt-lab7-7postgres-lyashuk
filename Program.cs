@@ -51,3 +51,10 @@ using (var scope = app.Services.CreateScope())
         db.SaveChanges();
     }
 }
+var port = Environment.GetEnvironmentVariable("PORT") ?? "10000";
+app.Urls.Add($"http://0.0.0.0:{port}");
+
+app.MapGet("/", () => Results.Ok("API is running"));
+app.MapGet("/players", async (AppDbContext db) => Results.Ok(await db.Players.ToListAsync()));
+
+app.Run();
