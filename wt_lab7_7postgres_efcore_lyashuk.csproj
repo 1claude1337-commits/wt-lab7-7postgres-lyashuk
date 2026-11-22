@@ -4,7 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>wt_lab6_6minimalapi_lyashuk</RootNamespace>
+    <RootNamespace>wt_lab7_7postgres_efcore_lyashuk</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
